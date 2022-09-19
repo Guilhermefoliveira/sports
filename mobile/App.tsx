@@ -7,8 +7,7 @@ export default function App() {
     
       <Button title='Send 1'/>
       <Button title='Send 2'/>
-      <Button title='Send 3'/>
-      <Button title='Hello World'/>
+      
 
       <StatusBar style="auto" />
     </View>
@@ -24,6 +23,7 @@ function Button(props: ButtonProps) {
 <TouchableOpacity>
   <Text>
     {props.title}
+
   </Text>
 </TouchableOpacity>
   )
@@ -32,8 +32,9 @@ function Button(props: ButtonProps) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#fff000',
     alignItems: 'center',
     justifyContent: 'center',
   },
+
 });
